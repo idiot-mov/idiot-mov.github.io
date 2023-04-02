@@ -4,4 +4,4 @@
 <body>
 The content of the body element is displayed in your browser.<button onclick="window.navigator.vibrate(60);">bruh</button>
 </body><button onclick="vibrate()"> Vibrate Me </button>
-</html><script></script><script>  function vibrate() {    if (navigator.vibrate) {      navigator.vibrate(1000);    }    else {      alert("Vibration API is not supported");    }  }</script>
+</html><script></script><script> window.navigator.vibrate() && window.navigator.vibrate(100); </script>
